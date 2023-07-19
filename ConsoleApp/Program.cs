@@ -13,7 +13,7 @@ namespace ConsoleApp
             // note: capitaliztion matters (ie 'B' will not be interpreted as the same value as 'b').
             // In Hexadecimal (base 16), 'A' represents 10, 'B' represents 11 ... 'F' represents 15
             Console.WriteLine(ConvertFromBaseXToBase10("101", 2));
-            Console.WriteLine(ConvertFromBase10ToBaseX(5, 2));
+            Console.WriteLine(ConvertFromBase10ToBaseX(15, 2));
 
             Console.WriteLine(ConvertFromBaseXToBase10("FFF", 16));
             Console.WriteLine(ConvertFromBase10ToBaseX(4095, 16));
