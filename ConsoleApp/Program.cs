@@ -56,9 +56,9 @@ namespace ConsoleApp
 
             while (toConvert > 0)
             {
-                // toConvert % baseX calculates the remainder when divided by base (gives you the rightmost digit)
+                // toConvert % baseX calculates the remainder when divided by base 
                 result = GetChar(toConvert % baseX) + result;
-                toConvert = toConvert / baseX;  // can also be written as: toConvert /= baseX; This effectively removes the rightmost digit
+                toConvert = toConvert / baseX;  // can also be written as: toConvert /= baseX; 
             }
 
             return result;
