@@ -1,0 +1,27 @@
+# C# build artifacts
+bin/
+obj/
+debug/
+release/
+
+# Visual Studio files
+*.suo
+*.user
+*.sln.docstates
+*.vs/
+
+# Resharper
+_ReSharper*/
+*.resharper.user
+
+# Rider
+.idea/
+*.sln.iml
+
+# Build results
+[Bb]in/
+[Oo]bj/
+
+# NuGet
+packages/
+*.nupkg
